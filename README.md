@@ -23,7 +23,8 @@ usage: java -jar yase.jar [options]
   -t,--test       Creates a results file ready to be used to evaluate the effectiveness
                   of the search engine with trec_eval (Index is needed).
 ```
-
+**NOTE**: remember to move the MS Marco collection in the following folder:
+* *YASE/SearchEngine/src/main/resources/collection.tar.gz* 
 ## Contributors
 
 - Tommaso Baldi [@balditommaso](https://github.com/balditommaso)
