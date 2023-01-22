@@ -14,7 +14,7 @@ Once imported the project you can retrieve the * *jar* * lunching the following 
 ```
 mvn assembly:assembly -DdescriptorId=jar-with-dependencies install 
 ```
-Now you should have * *yase.jar* * in the **YASE** folder and you can run it with one of the following options:
+Now you should have * *yase.jar* * in the **YASE** root folder (the one with the LICENSE in it) and you can run it with one of the following options:
 ```
 usage: java -jar yase.jar [options]
   -i,--index      Create the index by processing the collection at the following path:
