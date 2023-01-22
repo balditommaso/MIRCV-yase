@@ -1,12 +1,12 @@
 # YASE
-YASE is a search engine capable to provide search results for the **MS Marco document collection**, a large dataset available on GitHub which is commonly used for researchin Information Retrieval.
+YASE is a search engine capable of providing search results for the **MS Marco document collection**, a dataset available on GitHub.
 The application is composed of the following modules:
-- Indexer that creates the data structures, such as the inverted index, lexicon and document index, which allow efficient search by mapping terms to the documents that contain them.
-- Query executorthat process the user’s queries, supporting conjunctive and disjunctive research, and returns the search results. It implements both TF-IDF and BM25 scoring functions.
+- Indexer: creates the data structures, such as the inverted index, lexicon and document index;
+- Query processor: supports conjunctive and disjunctive free text queries, and returns the search results. It implements both TF-IDF and BM25 scoring functions.
 
-Furthermore YASE also employs dynamic pruning techniques such as MaxScore in order to boost the performances of the query processing. The search engine also adopts simple compression techniques to reduce the size of the inverted index in order to be performant also in terms of memory usage while maintaining fast search response.  
+Furthermore, YASE employs dynamic pruning techniques such as MaxScore in order to boost the performances of disjunctive queries. The search engine also adopts simple compression techniques to reduce the size of the inverted index, in order to be efficient in terms of memory usage while maintaining fast search response.  
 
-The user can exploit the functionalities of YASE through a user-friendly CLI.
+The user can take advantage of YASE functionalities through a user-friendly CLI.
 
 ## Set up
 
