@@ -10,7 +10,7 @@ The user can take advantage of YASE functionalities through a user-friendly CLI.
 
 ## Set up
 
-Once imported the project you can retrieve the * *jar* * lunching the following command from the **SearchEngine** folder:
+Once imported the project you can retrieve the * *jar* * lunching the following command from inside the **SearchEngine** folder:
 ```
 mvn assembly:assembly -DdescriptorId=jar-with-dependencies install 
 ```
