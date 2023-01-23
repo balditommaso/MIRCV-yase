@@ -24,7 +24,7 @@ usage: java -jar yase.jar [options]
                   of the search engine with trec_eval (Index is needed).
 ```
 **NOTE**: remember to move the MS Marco collection to the following path:
-* *YASE/SearchEngine/src/main/resources/collection.tar.gz* 
+* *MIRCV-yase/SearchEngine/src/main/resources/collection.tar.gz* 
 ## Contributors
 
 - Tommaso Baldi [@balditommaso](https://github.com/balditommaso)
